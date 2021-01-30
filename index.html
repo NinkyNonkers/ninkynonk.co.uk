@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
 
 <head>
   <meta charset="utf-8">
@@ -12,6 +12,19 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
+
+  <!-- include Google's AJAX API loader -->
+  <script src="http://www.google.com/jsapi"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- load JQuery and UI from Google (need to use UI to animate colors) -->
+  <script src="js/vendor/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $('document').ready(begin());
+  </script>
+
+
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -22,16 +35,21 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body id="pageWrapper">
+
 
   <!-- Add your site or application content here -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
 
 
-  <h2>Ninky Nonk</h2>
+  <h1>Ninky Nonk</h1>
+  <div class="clickableCarriages">
+    <img class="clickableCarriage" src="img/end.svg" onmouseover="mouseOver('#CAFFBF')" onmouseout="mouseLeave()" />
+    <img class="clickableCarriage" src="img/middle.svg" onmouseover="mouseOver('#FDFFB6')" onmouseout="mouseLeave()" />
+    <img class="clickableCarriage" id="clickableCarriageOrange" src="img/front.svg" onmouseover="mouseOver('#FFD6A5')" onmouseout="mouseLeave()" />
+  </div>
   <p>Coming to a garden near you</p>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
@@ -40,6 +58,6 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </div>
 </body>
-
 </html>

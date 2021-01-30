@@ -18,24 +18,58 @@
   margin: 0;
 }
 
+body {
+  color: #888;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #BDB2FF;
+  margin: 0;
+}
+
+#clickableCarriageOrange {
+
+}
+
+#pageWrapper {
+
+}
+
+.homeBody {
+  position: center;
+}
+
+.clickableCarriages {
+  display: inline;
+  height: 200px;
+  width: 1920px;
+}
+
+
+.clickableCarriage {
+  height: 100%;
+  width: auto;
+}
+
+
+@font-face {
+  font-family: Belucian-Book;
+  src: url("/font/Belucian-Book.otf");
+}
+
+
 html {
   color: #888;
   display: table;
-  font-family: sans-serif;
   height: 100%;
   text-align: center;
   width: 100%;
 }
 
-body {
-  display: table-cell;
-  vertical-align: middle;
-  margin: 2em auto;
-}
 
 h1 {
   color: #555;
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 400;
 }
 
@@ -53,6 +87,7 @@ p {
 
   h1 {
     font-size: 1.5em;
+    font-family: Belucian-Book;
     margin: 0 0 0.3em;
   }
 
