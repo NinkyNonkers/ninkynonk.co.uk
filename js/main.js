@@ -24,6 +24,10 @@ function mouseLeave(bgColor) {
   }, 200);
 }
 
+function showComingSoonText(bgColor) {
+
+}
+
 function changeBgColor($, color) {
   $.animate({backgroundColor: color}, {progress: function(animation, progress, msRemaining){
 

@@ -22,9 +22,7 @@
   <script src="js/slogan.js"></script>
 
 
-  <script>
-    $('document').ready(setSlogan("#slogan"));
-  </script>
+
 
 
   <link rel="manifest" href="site.webmanifest">
@@ -74,10 +72,16 @@
     </div>
   </div>
 
+
+  <p class="slogan" style="visibility: hidden">Coming soon!</p>
+
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script>
+    $(document).ready(setSlogan());
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   </div>

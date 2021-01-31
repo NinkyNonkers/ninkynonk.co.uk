@@ -16,8 +16,20 @@ Some styles taken from Html5BP
 
 #slogan {
   color: #555;
-  font-size: 1em;
+  font-size: 2em;
   font-style: italic;
+  white-space: nowrap;
+  width: 100%;
+  margin: -40px 0 40px;
+}
+
+.slogan {
+  color: #555;
+  font-size: 2em;
+  font-style: italic;
+  white-space: nowrap;
+  width: 100%;
+  margin: -40px 0 40px;
 }
 
 .navbar {

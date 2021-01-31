@@ -4,8 +4,8 @@ const slogans = [
     'Everybody All Aboard the Ninky Nonk',
     'The Prettiest Flower',
     'Makka Pakka\'s Trumpet Makes a Funny Noise',
-    '	The Pontipines in Upsy Daisy\'s Bed',
-    'Who\'s Next on the Pinky Ponk',
+    'The Pontipines in Upsy Daisy\'s Bed',
+    'Who\'s Next on the Pinky Ponk?',
     'Igglepiggle\'s Blanket in Makka Pakka\'s Ditch',
     'The Ninky Nonk Wants a Kiss',
     'Too Loud Tombliboos! Nice and Quiet!',
@@ -43,7 +43,8 @@ const slogans = [
     'Wake Up IgglePiggle!',
     'Washing the Haahoos',
     'Where\'s Upsy Daisy Gone?',
-    'Over and Under',	'Upsy Daisy\'s Tiring Walk	Makka Pakka\'s Present',
+    'Over and Under',	'Upsy Daisy\'s Tiring Walk',
+    'Makka Pakka\'s Present',
     'Igglepiggle Goes Visiting',
     'Tombliboo Trousers',
     'Where\'s Your Uff-Uff, Makka Pakka?	 ',
@@ -61,7 +62,8 @@ const slogans = [
     'Where Are the Tombliboos\' Toothbrushes?',
     'The Pontipines\' Picnic',
     'Upsy Daisy\'s Funny Bed',
-    'Upsy Daisy\'s Special Stone',	'Makka Pakka\'s Piles of Three',
+    'Upsy Daisy\'s Special Stone',
+    'Makka Pakka\'s Piles of Three',
     'Running About',
     'Trousers on the Ninky Nonk',
     'Where Are the Wottingers?',
@@ -70,8 +72,10 @@ const slogans = [
     'What a Funny Ninky Nonk',
     'Mr Pontipine\'s Moustache Flies Away',
     'Make Up Your Mind Upsy Daisy',
-    'Catch the Ninky Nonk',	 'Tombliboos\'	 Hide-and-Seek',
-    'What Loud Music	 Tombliboos!',
+    'Catch the Ninky Nonk',
+    'Tombliboos\'	 Hide-and-Seek',
+    'What Loud Music?',
+    'Tombliboos!',
     'Where Can Igglepiggle Have a Rest?',
     'Waving from the Ninky Nonk',
     'Where Did Makka Pakka\'s Sponge Go?',
@@ -89,11 +93,14 @@ const slogans = [
     'Upsy Daisy Only Wants to Sing',
     'The Tombliboo\'s Busy Ninky Nonk Day',
     'Pinky Ponk and the Ball'	, 'Sneezing',
-    'Ninky Nonk or Pinky Ponk\'	Oh Look! It\'s the Wottingers!',
+    'Ninky Nonk or Pinky Ponk',	'Oh Look! It\'s the Wottingers!',
     'Upsy Daisy Dances with the Haahoos',
     'Fall Down Ball'
 ];
 
-function setSlogan(elementName) {
-  $(elementName).innerText = slogans[Math.floor(Math.random() * slogans.length)].toLowerCase();
+function setSlogan() {
+  let a = slogans[Math.floor(Math.random() * slogans.length)].toLowerCase();
+  let element = document.getElementById("slogan");
+  element.innerText = a;
+
 }

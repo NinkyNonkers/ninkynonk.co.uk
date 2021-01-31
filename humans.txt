@@ -3,13 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    hiilikewiki -- Developer -- @hiilikewiki
+    CarelessCharlie -- Designer -- @carelesscreative
+    twosailscode -- Data Formatting -- @twosails
+
 
 # THANKS
 
-    <name>
+    design ideas: notyouraveragecustard, CxNDYGRxM
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    JS, CSS3, HTML5
+    jQuery, jQueryUI
