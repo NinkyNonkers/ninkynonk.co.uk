@@ -13,11 +13,20 @@
 
 
 
+
+
+
 * {
   line-height: 1.2;
   margin: 0;
 }
 
+
+#slogan {
+  color: #555;
+  font-size: 1em;
+  font-style: italic;
+}
 
 .navbar {
   display: inline; !important;
@@ -36,12 +45,25 @@
   align-items:center;
   justify-content:center;
   background-color: white;
+  font-weight: bold;
+  font-size: 250%;
+  text-underline: none;
+  font-family: "Comic Sans MS";
+  text-decoration: none !important;
+  color: #BDB2FF;
 }
+
+a {
+  text-decoration: none !important;
+}
+
+
 
 .menuLink {
   text-underline: none;
   font-family: "Comic Sans MS";
   text-decoration: none !important;
+  color: #888;
 }
 
 

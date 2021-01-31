@@ -19,9 +19,11 @@
   <!-- load JQuery and UI from Google (need to use UI to animate colors) -->
   <script src="js/vendor/jquery-ui.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/slogan.js"></script>
+
 
   <script>
-    $('document').ready(begin());
+    $('document').ready(setSlogan("#slogan"));
   </script>
 
 
@@ -44,29 +46,31 @@
 
 
   <h1>Ninky Nonk</h1>
-  <div class="clickableCarriages">
+  <!--<div class="clickableCarriages">
     <img class="clickableCarriage" src="img/end.svg" onmouseover="mouseOver('#CAFFBF')" onmouseout="mouseLeave('#CAFFBF')" />
     <img class="clickableCarriage" src="img/middle.svg" onmouseover="mouseOver('#FDFFB6')" onmouseout="mouseLeave('#FDFFB6')" />
     <img class="clickableCarriage" id="clickableCarriageOrange" src="img/front.svg" onmouseover="mouseOver('#FFD6A5')" onmouseout="mouseLeave('#FFD6A5')" />
-  </div>
+  </div> -->
+
+  <p id="slogan"></p>
 
 
   <div class="optionGrid">
     <a href="projects.html" class="menuLink">
-    <div class="optionQuadrat" style="background-color: #FFC6FF">
-      <p>Projects</p>
+    <div class="optionQuadrat" style="background-color: #FFC6FF" onmouseover="mouseOver('#FFC6FF')" onmouseout="mouseLeave('#FFC6FF')">
+      <p>projects</p>
     </div>
     </a>
-    <div class="optionQuadrat" style="background-color: #B3FBDF">
-      <p>Store (Coming soon)</p>
+    <div class="optionQuadrat" style="background-color: #B3FBDF" onmouseover="mouseOver('#B3FBDF')" onmouseout="mouseLeave('#B3FBDF')">
+      <p>store</p>
     </div>
     <a href="media.html">
-    <div class="optionQuadrat" style="background-color: #DEBCFF">
-      <p>Media</p>
+    <div class="optionQuadrat" style="background-color: #FDFFB6" onmouseover="mouseOver('#FDFFB6')" onmouseout="mouseLeave('#FDFFB6')">
+      <p>media</p>
     </div>
     </a>
-    <div class="optionQuadrat" style="background-color: #9BF6FF">
-      <p>More</p>
+    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')">
+      <p>more</p>
     </div>
   </div>
 
