@@ -18,13 +18,62 @@
   margin: 0;
 }
 
-body {
-  color: #888;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+
+.navbar {
+  display: inline; !important;
+  position: fixed; !important;
+  height: 30px;!important;
+  width: 1920px; !important;
+  padding: 0px 0px 1080px; !important;
+  background-color: #ffffff; !important;
+}
+
+.optionQuadrat {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: white;
+}
+
+.menuLink {
+  text-underline: none;
+  font-family: "Comic Sans MS";
+  text-decoration: none !important;
+}
+
+
+.notfound {
+  background-image: url("../img/background/space-flag.png") !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.notfound-messageBox {
+  height: 500px;
+  width: 800px;
+  opacity: 80%;
   background-color: #BDB2FF;
-  margin: 0;
+  padding: 70px;
+}
+
+.optionGrid {
+  margin: 20px auto;
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.navbar-button {
+  color: slategrey;
 }
 
 #clickableCarriageOrange {
@@ -32,7 +81,12 @@ body {
 }
 
 #pageWrapper {
-
+  color: #888;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #BDB2FF;
+  margin: 0;
 }
 
 .homeBody {
@@ -58,7 +112,7 @@ body {
 }
 
 
-html {
+.htmlWrapper {
   color: #888;
   display: table;
   height: 100%;

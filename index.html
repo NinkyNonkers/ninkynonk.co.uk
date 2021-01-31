@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html class="htmlWrapper" lang="">
 
 <head>
   <meta charset="utf-8">
@@ -43,14 +43,32 @@
   <script src="js/plugins.js"></script>
 
 
-
   <h1>Ninky Nonk</h1>
   <div class="clickableCarriages">
-    <img class="clickableCarriage" src="img/end.svg" onmouseover="mouseOver('#CAFFBF')" onmouseout="mouseLeave()" />
-    <img class="clickableCarriage" src="img/middle.svg" onmouseover="mouseOver('#FDFFB6')" onmouseout="mouseLeave()" />
-    <img class="clickableCarriage" id="clickableCarriageOrange" src="img/front.svg" onmouseover="mouseOver('#FFD6A5')" onmouseout="mouseLeave()" />
+    <img class="clickableCarriage" src="img/end.svg" onmouseover="mouseOver('#CAFFBF')" onmouseout="mouseLeave('#CAFFBF')" />
+    <img class="clickableCarriage" src="img/middle.svg" onmouseover="mouseOver('#FDFFB6')" onmouseout="mouseLeave('#FDFFB6')" />
+    <img class="clickableCarriage" id="clickableCarriageOrange" src="img/front.svg" onmouseover="mouseOver('#FFD6A5')" onmouseout="mouseLeave('#FFD6A5')" />
   </div>
-  <p>Coming to a garden near you</p>
+
+
+  <div class="optionGrid">
+    <a href="projects.html" class="menuLink">
+    <div class="optionQuadrat" style="background-color: #FFC6FF">
+      <p>Projects</p>
+    </div>
+    </a>
+    <div class="optionQuadrat" style="background-color: #B3FBDF">
+      <p>Store (Coming soon)</p>
+    </div>
+    <a href="media.html">
+    <div class="optionQuadrat" style="background-color: #DEBCFF">
+      <p>Media</p>
+    </div>
+    </a>
+    <div class="optionQuadrat" style="background-color: #9BF6FF">
+      <p>More</p>
+    </div>
+  </div>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
