@@ -1,11 +1,6 @@
 /*
 ninkynonk.co.uk main stylesheet
-Some styles taken from Html5BP
- */
-
-
-
-
+*/
 
 
 * {
@@ -37,7 +32,7 @@ Some styles taken from Html5BP
   position: fixed; !important;
   height: 30px;!important;
   width: 1920px; !important;
-  padding: 0px 0px 1080px; !important;
+  padding: 0 0 1080px; !important;
   background-color: #ffffff; !important;
 }
 
@@ -52,7 +47,7 @@ Some styles taken from Html5BP
   font-weight: bold;
   font-size: 250%;
   text-underline: none;
-  font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS", serif;
   text-decoration: none !important;
   color: #BDB2FF;
 }
@@ -65,7 +60,7 @@ a {
 
 .menuLink {
   text-underline: none;
-  font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS", serif;
   text-decoration: none !important;
   color: #888;
 }
@@ -167,7 +162,7 @@ p {
 
   h1 {
     font-size: 1.5em;
-    font-family: Belucian-Book;
+    font-family: Belucian-Book, sans-serif;
     margin: 0 0 0.3em;
   }
 

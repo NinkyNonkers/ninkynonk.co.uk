@@ -3,12 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Ninky Nonk | Media</title>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <meta property="og:title" content="Ninky Nonk | Media">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ninkynonk.co.uk/media.html">
+    <meta property="og:image" content="http://cdn.ninkynonk.co.uk/b61e.png" >
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/video.js"></script>
+</head>
 </head>
 <body>
 <video autoplay muted loop class="videoBackground">
-  <source src="video/media.mp4" type="video/mp4">
+  <source type="video/mp4" id="video">
 </video>
+<div class="mediaWrapper">
+  <h1>Media</h1>
+  <div class="videoGrid">
+
+  </div>
+</div>
+<script>
+  $(document).ready(() => {
+    setVideo();
+    displayVideos();
+  });
+</script>
 </body>
 </html>
