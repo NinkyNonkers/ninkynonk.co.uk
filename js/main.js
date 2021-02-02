@@ -1,5 +1,9 @@
-let colourStatus = new Object();
-
+let colourStatus = {
+  "#FFC6FF": false,
+  "#B3FBDF": false,
+  "#FDFFB6": false,
+  "#9BF6FF": false,
+};
 
 function mouseOver(bgColor) {
   colourStatus[bgColor] = true;
@@ -8,15 +12,9 @@ function mouseOver(bgColor) {
 
 function mouseLeave(bgColor) {
   colourStatus[bgColor] = false;
-  for (const color in colourStatus) {
-    if (colourStatus[color] === true)
-      return;
-  }
   setTimeout(() => {
-    for (const color in colourStatus) {
-      if (colourStatus[color] === true)
-        return;
-    }
+    if (Object.values(colourStatus).includes(true))
+      return;
     changeBgColor($("#pageWrapper"), "#BDB2FF");
   }, 200);
 }

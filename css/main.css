@@ -50,6 +50,7 @@ ninkynonk.co.uk main stylesheet
   font-family: "Comic Sans MS", serif;
   text-decoration: none !important;
   color: #BDB2FF;
+  border-width: 0;
 }
 
 a {
