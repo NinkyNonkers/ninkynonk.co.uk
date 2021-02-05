@@ -2,20 +2,25 @@
   position: relative;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 1920px;
+  min-height: 99.899%;
+  max-height: 99.899%;
+  object-fit: fill;
 }
 
 .mediaWrapper {
   background-color: #FDFFB6;
-  width: 100%;
+  width: 1920px;
   height: 100%;
-  left: 0px;
+  margin: 0;
+  left: 0;
   z-index: 1000;
-  top: 0px;
+  top: 0;
+  bottom: 0;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  object-fit: fill;
 }
 
 #video {
@@ -26,6 +31,24 @@
 
 }
 
+html,body { height:100%; }
+
+
 .videoGridElement {
 
+}
+
+
+.row {
+  border:1px;
+  height:1em;
+  line-height:1em;
+}
+
+.box {
+  display:inline-block;
+  height:3em;
+  box-sizing:border-box;
+  border:1px;
+  width: 33%;
 }

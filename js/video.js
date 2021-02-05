@@ -7,9 +7,18 @@ function setVideo(){
 }
 
 function displayVideos() {
-  const videosElement = document.getElementById(".videoGrid");
-  for (const video in videos) {
-    const vidElement = videosElement.createElement("div", {class: ""})
+  const videosElement = document.getElementById("videoGrid");
+  for (i=0; i < videos.length / 3 ; i+=1) {
+    const row = document.createElement("div");
+    row.className = "row";
+    row.id = "row" + i;
+
+    for (k = 0; k < 3; k += 1) {
+      const box = document.createElement("div");
+      box.className = "box";
+      row.appendChild(box);
+    }
+    videosElement.appendChild(row);
   }
 }
 
