@@ -1,30 +1,56 @@
 const pageWrapper = document.getElementById("pageWrapper");
+const defaultColour = "#BDB2FF";
+const jQueryPageWrapper = $("#pageWrapper");
 
+const colourStatus = {
+  TOGGLED: 0,
+  ON: 1,
+  OFF: 2
+}
 
-let colourStatus = {
-  "#FFC6FF": false,
-  "#B3FBDF": false,
-  "#FDFFB6": false,
-  "#9BF6FF": false,
+let colourStatuses = {
+  "#FFC6FF": colourStatus.OFF,
+  "#B3FBDF": colourStatus.OFF,
+  "#FDFFB6": colourStatus.OFF,
+  "#9BF6FF": colourStatus.OFF
 };
 
 function mouseOver(bgColor) {
-  colourStatus[bgColor] = true;
-  changeBgColor($("#pageWrapper"), bgColor)
+  colourStatuses[bgColor] = colourStatus.ON;
+  changeBgColor(jQueryPageWrapper, bgColor)
+}
+
+function mouseClick(bgColour, associatedDivider = null) {
+  if (colourStatuses[bgColour] === colourStatus.TOGGLED) {
+    changeBgColor(jQueryPageWrapper, defaultColour);
+    if (associatedDivider != null) {
+      document.getElementById(associatedDivider).style.visibility = "hidden";
+    }
+    colourStatuses[bgColour] = colourStatus.OFF;
+    return;
+  }
+  colourStatuses[bgColour] = colourStatus.ON;
+  changeBgColor(jQueryPageWrapper, bgColour);
+  if (associatedDivider != null) {
+    document.getElementById(associatedDivider).style.visibility = "inherit";
+  }
 }
 
 
 function mouseLeave(bgColor) {
-  colourStatus[bgColor] = false;
+  if (colourStatus[bgColor] === colourStatus.TOGGLED)
+    return;
+  colourStatus[bgColor] = colourStatus.OFF;
   setTimeout(() => {
-    if (Object.values(colourStatus).includes(true))
+    if (Object.values(colourStatuses).includes(colourStatus.ON))
       return;
-    changeBgColor($("#pageWrapper"), "#BDB2FF");
+    changeBgColor(jQueryPageWrapper, "#BDB2FF");
   }, 200);
 }
 
 function hexToRgb(hex) {
   // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
+  hex = hex.replace("#", "");
   const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
   hex = hex.replace(shorthandRegex, function(m, r, g, b) {
     return r + r + g + g + b + b;

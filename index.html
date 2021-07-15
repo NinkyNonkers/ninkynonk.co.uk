@@ -64,14 +64,12 @@
       <p>media</p>
     </div>
     </a>
-    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')">
+    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')" onclick="mouseClick('#9BF6FF', 'more')">
       <p>more</p>
     </div>
   </div>
-
-
-  <p class="slogan" style="visibility: hidden">Coming soon!</p>
-
+ <div id="more" style="visibility: hidden">
+ </div>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
