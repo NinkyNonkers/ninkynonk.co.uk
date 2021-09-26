@@ -69,7 +69,7 @@
       <p>media</p>
     </div>
     </a>
-    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')">
+    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')" id="sh">
       <p>more</p>
     </div>
   </div>
@@ -84,6 +84,10 @@
   </script>
   <script>
     $(document).ready(setSlogan());
+    $("#sh").mousedown(function (event) {
+      if (event.which === 3)
+       setSloganToQuoteOfTheDay();
+    });
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
   </div>

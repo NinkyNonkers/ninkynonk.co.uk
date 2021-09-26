@@ -98,6 +98,13 @@ const slogans = [
     'Fall Down Ball'
 ];
 
+function setSloganToQuoteOfTheDay() {
+  $.get("https://api.ninkynonk.co.uk/quote", function (data) {
+    let element = document.getElementById("slogan");
+    element.innerText = data.toLowerCase();
+  })
+}
+
 function setSlogan() {
   let a = slogans[Math.floor(Math.random() * slogans.length)].toLowerCase();
   let element = document.getElementById("slogan");
