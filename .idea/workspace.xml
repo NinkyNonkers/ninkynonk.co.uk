@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="415ad8b2-8dcd-4267-9dc2-5598b4751a1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <workItem from="1632151408101" duration="596000" />
       <workItem from="1632658348166" duration="1735000" />
       <workItem from="1635150065336" duration="476000" />
-      <workItem from="1640113019022" duration="83000" />
+      <workItem from="1640113019022" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit wahayy">
       <created>1612018414153</created>
@@ -266,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632660073400</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="New domain :D">
+      <created>1640113116922</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1640113116922</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -314,7 +319,8 @@
     <MESSAGE value="Lots of changes&#10;Optimise the hell out of the background changing, add some media styling" />
     <MESSAGE value="also editorial" />
     <MESSAGE value="SHHHHHHHHH :))" />
-    <option name="LAST_COMMIT_MESSAGE" value="SHHHHHHHHH :))" />
+    <MESSAGE value="New domain :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="New domain :D" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.editorconfig">
