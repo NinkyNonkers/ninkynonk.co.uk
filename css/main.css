@@ -2,10 +2,15 @@
 ninkynonk.co.uk main stylesheet
 */
 
+@font-face {
+  font-family: Belucian-Book;
+  src: url("../font/Belucian-Book.otf");
+}
 
 * {
   line-height: 1.2;
   margin: 0;
+  font-family: Belucian-Book;
 }
 
 
@@ -25,6 +30,44 @@ ninkynonk.co.uk main stylesheet
   white-space: nowrap;
   width: 100%;
   margin: -40px 0 40px;
+}
+
+#moreWrapper {
+  background-color: #9BF6FF;
+  width: 1920px;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  object-fit: fill;
+}
+
+.moreList {
+  list-style: none !important;
+  text-align: center !important;
+  display: inline-block !important;
+  alignment: center !important;
+  align-items: center;
+  font-size: 80%;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.menuItem {
+  color: #555;
+  font-size: 2em;
+  font-style: italic;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#menu {
+  text-decoration: none;
 }
 
 .navbar {
@@ -55,8 +98,35 @@ ninkynonk.co.uk main stylesheet
 
 a {
   text-decoration: none !important;
+  text-decoration-color: inherit !important;
+  color: #555 !important;
+  font-weight: bolder;
 }
 
+.backLink {
+  font-weight: bold !important;
+}
+
+.triad {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.element {
+  float: left;
+  width: 33.33%;
+  font-size: 80%;
+  margin-right: 0px
+}
+
+.homeButton {
+  float: left;
+}
+
+.definition {
+  padding-top: 40px !important;
+  font-size: 90% !important;
+}
 
 
 .menuLink {
@@ -102,7 +172,7 @@ a {
 
 }
 
-#pageWrapper {
+.pageWrapper {
   color: #888;
   text-align: center;
   display: table-cell;
@@ -128,10 +198,6 @@ a {
 }
 
 
-@font-face {
-  font-family: Belucian-Book;
-  src: url("/font/Belucian-Book.otf");
-}
 
 
 .htmlWrapper {
@@ -154,6 +220,22 @@ p {
   width: 280px;
 }
 
+.standardText {
+  text-decoration: none;
+  text-decoration-color: inherit !important;
+  color: #555 !important;
+  margin: fill !important;
+  font-size: 150%;
+}
+
+.definitionExample {
+  font-size: 60%;
+  font-style: normal;
+  opacity: 120% !important;
+}
+
+
+
 @media only screen and (max-width: 280px) {
 
   body,
@@ -161,7 +243,7 @@ p {
     width: 95%;
   }
 
-  h1 {
+  h1, h2, p {
     font-size: 1.5em;
     font-family: Belucian-Book, sans-serif;
     margin: 0 0 0.3em;

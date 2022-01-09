@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="415ad8b2-8dcd-4267-9dc2-5598b4751a1e" name="Default Changelist" comment="">
+    <list default="true" id="415ad8b2-8dcd-4267-9dc2-5598b4751a1e" name="Default Changelist" comment="Update links">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/more.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NinkyWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NinkyWebsite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moved.html" beforeDir="false" afterPath="$PROJECT_DIR$/moved.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slogan.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slogan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -41,6 +53,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,6 +143,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/JellyfinTheme" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -167,7 +188,14 @@
       <workItem from="1632658348166" duration="1735000" />
       <workItem from="1635150065336" duration="476000" />
       <workItem from="1640113019022" duration="1261000" />
-      <workItem from="1640211372931" duration="2234000" />
+      <workItem from="1640211372931" duration="2950000" />
+      <workItem from="1641122927245" duration="85000" />
+      <workItem from="1641294951872" duration="3019000" />
+      <workItem from="1641315209329" duration="6606000" />
+      <workItem from="1641328624149" duration="366000" />
+      <workItem from="1641406517628" duration="2428000" />
+      <workItem from="1641667721657" duration="95000" />
+      <workItem from="1641756552297" duration="4951000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit wahayy">
       <created>1612018414153</created>
@@ -295,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640212582301</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update links">
+      <created>1640213650332</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640213650332</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -347,7 +382,8 @@
     <MESSAGE value="Woops" />
     <MESSAGE value="Modify editorial link" />
     <MESSAGE value="Add moved page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add moved page" />
+    <MESSAGE value="Update links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.editorconfig">

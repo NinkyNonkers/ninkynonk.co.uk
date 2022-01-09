@@ -107,7 +107,6 @@ function setSloganToQuoteOfTheDay() {
 
 function setSlogan() {
   let a = slogans[Math.floor(Math.random() * slogans.length)].toLowerCase();
-  let element = document.getElementById("slogan");
+  let element = getElementByClass("slogan");
   element.innerText = a;
-
 }

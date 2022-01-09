@@ -15,11 +15,6 @@
   <meta name="keywords" content="ninkynonk, in, the night garden, piggle, night, garden, nonk">
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="js/vendor/jquery-ui.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/slogan.js"></script>
-
   <link type="text/plain" rel="author" href="humans.txt" />
 
   <link rel="manifest" href="site.webmanifest">
@@ -36,9 +31,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body id="pageWrapper">
-
-
+<body class="pageWrapper">
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
 
@@ -50,7 +43,7 @@
     <img class="clickableCarriage" id="clickableCarriageOrange" src="img/front.svg" onmouseover="mouseOver('#FFD6A5')" onmouseout="mouseLeave('#FFD6A5')" />
   </div> -->
 
-  <p id="slogan"></p>
+  <p class="slogan" >Coming soon!</p>
 
 
   <div class="optionGrid">
@@ -69,19 +62,19 @@
       <p>media</p>
     </div>
     </a>
-    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')" id="sh">
+    <a href="more.html">
+    <div class="optionQuadrat" style="background-color: #9BF6FF" onmouseover="mouseOver('#9BF6FF')" onmouseout="mouseLeave('#9BF6FF')">
       <p>more</p>
     </div>
+    </a>
   </div>
 
-
-  <p class="slogan" style="visibility: hidden">Coming soon!</p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/vendor/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/slogan.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
   <script>
     $(document).ready(setSlogan());
     $("#sh").mousedown(function (event) {

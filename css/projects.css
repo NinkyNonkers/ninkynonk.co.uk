@@ -1,0 +1,14 @@
+#projectsWrapper {
+  background-color: #FFC6FF;
+  width: 1920px;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  object-fit: fill;
+}
