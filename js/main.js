@@ -7,7 +7,7 @@ let colourStatus = {
 
 let externalColourStatus = false;
 const mainPageColor = "#BDB2FF";
-const pageWrapper = $(".pageWrapper");
+const pageWrapper = $("#mainPage");
 
 function getElementByClass(name) {
   return document.getElementsByClassName(name)[0];

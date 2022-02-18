@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="415ad8b2-8dcd-4267-9dc2-5598b4751a1e" name="Default Changelist" comment="Update links">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/more.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NinkyWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NinkyWebsite.iml" afterDir="false" />
+    <list default="true" id="415ad8b2-8dcd-4267-9dc2-5598b4751a1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slogan.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slogan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +78,9 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
@@ -143,7 +140,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/JellyfinTheme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -195,7 +192,8 @@
       <workItem from="1641328624149" duration="366000" />
       <workItem from="1641406517628" duration="2428000" />
       <workItem from="1641667721657" duration="95000" />
-      <workItem from="1641756552297" duration="4951000" />
+      <workItem from="1641756552297" duration="5095000" />
+      <workItem from="1645180308414" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit wahayy">
       <created>1612018414153</created>
@@ -330,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640213650332</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="NEW&#10;Introduce belucian book font, add &quot;more&quot; page, improve projects page, add getElementByClass, finish project triad design">
+      <created>1641761596963</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641761596963</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -383,7 +388,9 @@
     <MESSAGE value="Modify editorial link" />
     <MESSAGE value="Add moved page" />
     <MESSAGE value="Update links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update links" />
+    <MESSAGE value="NEW&#10;Introduce belucian book font, add more page, improve projects page" />
+    <MESSAGE value="NEW&#10;Introduce belucian book font, add &quot;more&quot; page, improve projects page, add getElementByClass, finish project triad design" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW&#10;Introduce belucian book font, add &quot;more&quot; page, improve projects page, add getElementByClass, finish project triad design" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.editorconfig">
